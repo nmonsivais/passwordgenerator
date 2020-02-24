@@ -17,7 +17,7 @@
 
 //console log lowercase letters//
 
-//Add all variables here//
+//-----------------Add all variables here---------------------//
 var lowCase = ["a","b","c","d","e","f","g","h","i","j","k","l","m","n","o","p","q","r","s","t","u","v","w","x","y","z"];
 
 var upCase = ["A","B","C","D","E","F","G","H","I","J","K","L","M","N","O","P","Q","R","S","T","U","V","W","X","Y","Z"];
@@ -27,9 +27,8 @@ var num = [0,1,2,3,4,5,6,7,8,9]
 //characterlength = 19//
 var speChar = ["!", "#", "$", "%", "&", "*", ",", "-", ".", "/", ":", ";", "<", "=", ">", "?", "@", "^", "_",]
 
+//--------------------Create Prompts here--------------------//
 
-
-
-// for(var i = 0; i < lowerCase.length; i++) {
-//   console.log(lowerCase[i]);
-// }
+function initClick() {
+  alert("Hello boss.  Click ok to select your criteria.");
+}
