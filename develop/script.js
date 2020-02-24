@@ -1,4 +1,4 @@
-// // Assignment Code
+// Assignment Code
 // var generateBtn = document.querySelector("#generate");
 
 // // Write password to the #password input
@@ -24,11 +24,18 @@ var upCase = ["A","B","C","D","E","F","G","H","I","J","K","L","M","N","O","P","Q
 
 var num = [0,1,2,3,4,5,6,7,8,9]
 
-//characterlength = 19//
+//special character length = 19//
 var speChar = ["!", "#", "$", "%", "&", "*", ",", "-", ".", "/", ":", ";", "<", "=", ">", "?", "@", "^", "_",]
+
+// var characlength = prompt("Enter a number between '8' and '128'.");
+
 
 //--------------------Create Prompts here--------------------//
 
 function initClick() {
+
   alert("Hello boss.  Click ok to select your criteria.");
+  var characlength = prompt("Enter a # between '8' and '128'");
+  console.log(characlength);
 }
+
