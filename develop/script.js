@@ -35,7 +35,12 @@ var speChar = ["!", "#", "$", "%", "&", "*", ",", "-", ".", "/", ":", ";", "<", 
 function initClick() {
 
   alert("Hello boss.  Click ok to select your criteria.");
+  //All criteria will be prompted as below and stored in individual variables.//
   var characlength = prompt("Enter a # between '8' and '128'");
-  console.log(characlength);
+  var userlowercase = prompt("If you want lowercase letters type 'yes'.  Otherwise, type 'no'.");
+  var useruppercase = prompt("If you want uppercase letters type 'yes'.  Otherwise, type 'no'.");
+  var userspecialcharacters = prompt("If you want special characters type 'yes'.  Otherwise, type 'no'.");
+
+  console.log(characlength, userlowercase, useruppercase, userspecialcharacters);
 }
 
