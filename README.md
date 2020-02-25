@@ -6,7 +6,10 @@ This app will allow users to randomly generate a password.  Users will be able t
 @nmonsivais
 
 # Technology
-HTML, CSS, Bootstrap, JavaScript
+HTML, CSS, JavaScript
+
+# Live Link
+[View Page Live](https://nmonsivais.github.io/passwordgenerator/)
 
 # Contact
 [E-Mail](Mailto:nmonsivais@gmail.com) |
